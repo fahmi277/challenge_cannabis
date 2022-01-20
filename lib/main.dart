@@ -11,8 +11,8 @@ import 'package:device_preview/device_preview.dart';
 void main() {
   runApp(
     DevicePreview(
-      // enabled: !kReleaseMode,
-      enabled: false,
+      enabled: !kReleaseMode,
+      // enabled: false,
       builder: (context) {
         return ScreenUtilInit(
             designSize: const Size(390, 844),
