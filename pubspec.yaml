@@ -1,0 +1,27 @@
+name: challenge_cannabis
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  flutter_screenutil: ^5.1.0
+  device_preview: ^1.0.0
+  auto_size_text: ^3.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+
+
